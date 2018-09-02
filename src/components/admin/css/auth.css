@@ -1,0 +1,41 @@
+/*.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side{
+    background-color: rgba(31, 27, 27, 0.5);
+}*/
+video { 
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;    
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);  
+    z-index: -100;  
+    background-size: cover;   
+   
+  }
+
+.auth-box{
+    position: fixed;
+    width: 500px;
+    font-size: 16px;
+    height: 500px;
+    min-height:0px;
+    color:white;
+    -moz-box-shadow: 0 1px 10px 1px rgba(16,16,16,.4);
+    -webkit-box-shadow: 0 1px 10px 1px rgba(16,16,16,.4);
+    box-shadow: 0 1px 10px 1px rgba(53, 42, 42, 0.4);
+    border: 2px ridge rgba(238,238,238,.13);
+    padding: 30px 50px;
+    left:30%;
+    top:10%;
+}
+.wrapper .btn{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.field-error{
+    color: red;
+    font-size: 14px;
+}
